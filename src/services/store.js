@@ -1,6 +1,6 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
-import { articleApi } from "./Article";
-import { atRule } from "postcss";
+import { configureStore } from "@reduxjs/toolkit";
+
+import { articleApi } from "./article";
 
 export const store = configureStore({
     reducer:{
