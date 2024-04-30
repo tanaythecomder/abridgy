@@ -4,8 +4,6 @@ import { copy, linkIcon, loader, tick } from "../assets";
 import { useLazyGetSummaryQuery } from "../services/article";
 
 const Demo = () => {
-  const rapidKey = process.env.REACT_APP_VITE_RAPID_API_ARTICLE_KEY ;
-  console.log(rapidKey)
   const [article, setArticle] = useState({
     url: "",
     summary: "",

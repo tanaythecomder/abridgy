@@ -1,5 +1,6 @@
 import React from 'react'
-import {logo} from '../assets'
+import {logoabridgy} from '../assets'
+
 
 const Hero = () => {
   return (
@@ -7,8 +8,8 @@ const Hero = () => {
     items-center flex-col'>
         <nav className='flex justify-between items-center 
         w-full mb-10 pt-3' >
-            <img src={logo} alt="abrgy_logo" 
-            className='w-28 object-contain'/>
+            <img src={logoabridgy} alt="abrgy_logo" 
+            className='w-28 object-contain' width={200} height={200}/>
 
             <button 
                 type='button'
